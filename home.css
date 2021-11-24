@@ -18,21 +18,23 @@ body {
 }
 
 .footer {
+
     display: flex;
     flex-direction: row;
     background-color: black;
     color: white;
+    padding-left: 10%;
 }
 
 main {
     box-sizing: border-box;
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(90deg, yellow, white);
+    background: linear-gradient(90deg, rgb(32, 44, 54), white);
 }
 
 #explore {
@@ -46,11 +48,14 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(90deg, cyan, white);
+    background: linear-gradient(90deg, rgb(133, 124, 158), white);
 }
 
 nav li {
     display: inline-block;
     
+    
 }
+
+
 
