@@ -18,20 +18,30 @@ body {
 }
 
 .footer {
+
     display: flex;
     flex-direction: row;
     background-color: black;
     color: white;
+    padding-left: 10%;
 }
 
 main {
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> dev/bamlaku
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+<<<<<<< HEAD
     background: linear-gradient(90deg, rgb(197, 197, 139), white);
+=======
+    background: linear-gradient(90deg, rgb(32, 44, 54), white);
+>>>>>>> dev/bamlaku
 }
 
 #explore {
@@ -52,11 +62,23 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+<<<<<<< HEAD
     background: linear-gradient(90deg, cyan, white);
     box-shadow: 2px 2px 2px black;    
 }
 
 nav li {
     display: inline-block;  
+=======
+    background: linear-gradient(90deg, rgb(133, 124, 158), white);
 }
+
+nav li {
+    display: inline-block;
+    
+    
+>>>>>>> dev/bamlaku
+}
+
+
 
