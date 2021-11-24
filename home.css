@@ -51,6 +51,11 @@ main {
     box-shadow: 2px 2px 2px black;
 }
 
+#explore:hover {
+    transform: scale(1.1);
+    background-color: crimsom;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -60,8 +65,14 @@ header {
 
 nav li {
     display: inline-block;
+
     
     
+}
+
+nav li:hover {
+    transform: scale(1.01);
+    color: crimson;
 }
 
 
