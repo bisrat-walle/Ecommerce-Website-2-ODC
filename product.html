@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, h1, h2{
+            margin: auto;
+            width: 300px;
+        }
+        table, tr, td{
+            border: 1px solid black;
+        }
+        h1, h2{
+            background-color: blanchedalmond;
+            text-align: center;
+            animation-name: move;
+            animation-delay: 50ms;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+
+        h2:first-of-type{
+            margin-top: 40px;
+        }
+
+        tr:nth-child(2n){
+            background-color: cadetblue;
+        }
+        @keyframes move {
+            0%{transform: translateX(2px);}
+            25%{transform: translateX(5px);}
+            50%{transform: translateX(-3px);}
+            75%{transform: translateX(-2px);}
+            100%{transform: translateX(-2px);}
+        }
+
+        nav{
+            width: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a{
+            text-decoration: none;
+            font-size: 20px;
+            background-color:black;
+            color: pink;
+            padding: 5px;
+            margin: 20px;
+        }
+
+        nav a:hover{
+            color: aqua;
+        }
+
+        footer{
+            background-color: bisque;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <hr>
+    <hr>
+    <h1>Products</h1>
+    <hr>
+    <hr>
+
+    <h2>Premium Products</h2>
+    
+    <table>
+        <tr>
+            <td>Product</td>
+            <td>Type</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Phone</td>
+            <td>$56</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Phone</td>
+            <td>$56</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Phone</td>
+            <td>$56</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Phone</td>
+            <td>$56</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Phone</td>
+            <td>$56</td>
+        </tr>
+    </table>
+
+    <h2>Ordinary Products</h2>
+
+    <table>
+        <tr>
+            <td>Product</td>
+            <td>Type</td>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Phone</td>
+            <td>$16</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Phone</td>
+            <td>$16</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Phone</td>
+            <td>$16</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Phone</td>
+            <td>$16</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Phone</td>
+            <td>$16</td>
+        </tr>
+        <tr>
+            <td>Samsung</td>
+            <td>Phone</td>
+            <td>$16</td>
+        </tr>
+    </table>
+
+    
+    <footer>
+        <nav>
+            <a href="home.html">home</a>
+            <a href="customer.html">customer</a>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
